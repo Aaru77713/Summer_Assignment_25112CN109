@@ -1,5 +1,6 @@
+package Day_2;
 import java.util.*;
-public class Reverse_Number {
+public class Palindrome_Number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
@@ -11,7 +12,10 @@ public class Reverse_Number {
             rev = rev * 10 + m % 10;
             m /= 10;
         }
-        System.out.println(rev);
+        if(n == rev)
+            System.out.println("Palindrome Number");
+        else
+            System.out.println("Not a palindrome Number");
     }
     
 }

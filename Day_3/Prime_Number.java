@@ -1,3 +1,4 @@
+package Day_3;
 import java.util.*;
 public class Prime_Number 
 {

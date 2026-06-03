@@ -1,3 +1,4 @@
+package Day_3;
 import java.util.*;
 public class Range_Of_Prime_Numbers {
     public static void main(String[] args) {
