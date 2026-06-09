@@ -1,17 +1,17 @@
 import java.util.*;
-public class Repeated_Number_Pattern {
+public class Reverse_Number_Triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
         int rows = sc.nextInt();
 
-        for (int i = 1; i <= rows; i++) {
+        for (int i = rows; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
-                System.out.print(i + " ");
+                System.out.print(j + " ");
             }
             System.out.println();
         }
         sc.close();
     }
-    
+
 }
